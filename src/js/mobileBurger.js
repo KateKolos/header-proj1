@@ -1,7 +1,13 @@
-const burgerIcon = document.querySelector('.burger-icon');
-const navLinks = document.querySelector('.nav-links');
+export const refs = {
+  headerBurger: document.querySelector('.header__burger'),
+  headerMenu: document.querySelector('.header__menu'),
+  body: document.querySelector('body'),
+};
 
-burgerIcon.addEventListener('click', () => {
-  navLinks.classList.toggle('show');
-  burgerIcon.classList.toggle('show');
-});
+refs.headerBurger.addEventListener('click', onBurgerBtnClick);
+
+export function onBurgerBtnClick() {
+  refs.headerBurger.classList.toggle('active');
+  refs.headerMenu.classList.toggle('active');
+  refs.body.classList.toggle('lock');
+}
