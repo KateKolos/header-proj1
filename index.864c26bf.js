@@ -1,0 +1,2 @@
+const e={headerBurger:document.querySelector(".header__burger"),headerMenu:document.querySelector(".header__menu"),body:document.querySelector("body"),searchIcon:document.querySelector(".search__icon"),headerSearch:document.querySelector(".header__search")};e.headerBurger.addEventListener("click",(function(){e.headerBurger.classList.toggle("active"),e.headerMenu.classList.toggle("active"),e.body.classList.toggle("lock")})),e.searchIcon.addEventListener("click",(function(){e.headerSearch.classList.toggle("active")}));
+//# sourceMappingURL=index.864c26bf.js.map
