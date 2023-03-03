@@ -1,1 +1,5 @@
-export { searchBox, searchIcon };
+import { refs } from './refs';
+
+export function onSearchIconClick() {
+  refs.headerSearch.classList.toggle('active');
+}
