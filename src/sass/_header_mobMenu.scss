@@ -118,14 +118,23 @@
     align-items: center;
     gap: 14px;
   }
-
-  .header__list li:focus {
+  .header__list-item:focus {
     background-color: var(--accent-color);
   }
 
+  // .header__list li:focus {
+  //   background-color: var(--accent-color);
+  // }
+
   .header__link {
+    // color: var(--light-theme-color);
     font-weight: 500;
     font-size: 16px;
+    &:focus,
+    &:hover {
+      // background-color: var(--accent-color);
+      color: var(--light-theme-color);
+    }
   }
 
   .header__search .search__icon {
