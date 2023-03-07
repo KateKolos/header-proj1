@@ -14,5 +14,6 @@
 <path fill="none" stroke="#f4f4f4" style="stroke: var(--color2, #f4f4f4)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M9.25 13.75l6.75-5.25 6.75 5.25v8.25c0 0.398-0.158 0.779-0.439 1.061s-0.663 0.439-1.061 0.439h-10.5c-0.398 0-0.779-0.158-1.061-0.439s-0.439-0.663-0.439-1.061v-8.25z"></path>
 <path fill="none" stroke="#f4f4f4" style="stroke: var(--color2, #f4f4f4)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M13.75 23.5v-7.5h4.5v7.5"></path>
 </symbol>
+<symbol id="icon-paperplane" viewBox="0 0 32 32"><path d="M32.009 0l-32.009 18.005 10.23 3.788 15.778-14.791-12.001 16.191 0.009 0.003-0.012-0.003v8.816l5.736-6.693 7.269 2.691 5-28.008z"></path></symbol>
 </defs>
 </svg>
